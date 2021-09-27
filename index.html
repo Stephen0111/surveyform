@@ -1,0 +1,220 @@
+<div class="container">
+    <header class="header">
+        <h1 id="title" class="text-center">Bazinga Rentals Customer Survey Form</h1>
+        <p id="description" class="description text-center">
+            Thank you for taking the time to participate in this survey, your feedback is important to us!!
+        </p>
+    </header>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Please enter your name" required />
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Please enter your Email" required />
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label
+        >
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Please enter your age"
+        />
+      </div>
+      <div class="form-group">
+        <p>In which of these regions do you use our services?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select your region</option>
+          <option value="Northeast">Northeast</option>
+          <option value="Northwest">Northwest</option>
+          <option value="Southeast">Southeast</option>
+          <option value="WestMidlands">WestMidlands</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <p>Would you recommend Bazinga Rentals to a friend?</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Definitely</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />Maybe</label
+        >
+  
+        <label
+          ><input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Not sure</label
+        >
+
+        <label
+          ><input
+            name="user-recommend"
+            value="definitely-not"
+            type="radio"
+            class="input-radio"
+          />Definitely Not</label
+        >
+      </div>
+  
+      <div class="form-group">
+        <p>
+          What is your favorite feature of Bazinga Rentals?
+        </p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select a feauture</option>
+          <option value="Delivery">Free Delivery</option>
+          <option value="Snacks">Complementary Snacks</option>
+          <option value="Vehicle">Vehicle Quality</option>
+          <option value="Price">Competitive Pricing</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>
+          What is your least favorite feature of Bazinga Rentals?
+        </p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select a feauture</option>
+          <option value="Delivery">Free Delivery</option>
+          <option value="Snacks">Complementary Snacks</option>
+          <option value="Vehicle">Vehicle Quality</option>
+          <option value="Price">Competitive Pricing</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>
+          Which of our services would you like to see improved?
+          <span class="clue">(Check all that apply)</span>
+        </p>
+  
+        <label
+          ><input
+            name="prefer"
+            value="Van"
+            type="checkbox"
+            class="input-checkbox"
+          />Van Hire</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="Car"
+            type="checkbox"
+            class="input-checkbox"
+          />Car Hire</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Bike"
+            type="checkbox"
+            class="input-checkbox"
+          />Bike Hire</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Driver"
+            type="checkbox"
+            class="input-checkbox"
+          />Driver Services</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Vehicle"
+            type="checkbox"
+            class="input-checkbox"
+          />Vehicle Leasing</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Insurance"
+            type="checkbox"
+            class="input-checkbox"
+          />Insurance Sercices</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="MOT"
+            type="checkbox"
+            class="input-checkbox"
+          />MOT Services</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Lessons"
+            type="checkbox"
+            class="input-checkbox"
+          />Driving Lessons</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Helicopter"
+            type="checkbox"
+            class="input-checkbox"
+          />Helicopter Hire</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Scooter"
+            type="checkbox"
+            class="input-checkbox"
+          />Scooter Hire</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Repairs"
+            type="checkbox"
+            class="input-checkbox"
+          />Car Repairs</label
+        >
+      </div>
+  
+      <div class="form-group">
+        <p>Any comments or suggestions?</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Please enter your comment here..."
+        ></textarea>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    &copy;<strong>BAZINGA 2021</strong>
+</footer>
